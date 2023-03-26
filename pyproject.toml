@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nonebot_plugin_miao"
+version = "beta"
+description = "Nonebot2 plugin to make your bot talk weird."
+authors = ["CMHopeSunshine <277073121@qq.com>"]
+keywords = ["nonebot2"]
+homepage = "https://github.com/CMHopeSunshine/nonebot-plugin-miao"
+readme = "README.md"
+license = "AGPL"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = "^2.0.0-rc.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
