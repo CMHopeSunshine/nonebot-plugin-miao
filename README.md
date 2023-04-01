@@ -48,7 +48,7 @@ nb plugin install nonebot-plugin-miao
 
 |       配置项        |    默认值     |                     说明                      |
 |:----------------:|:----------:|:-------------------------------------------:|
-|    miao_texts    | ["喵", "旺"] |                    口癖词列表                    |
+|    miao_words    | ["喵", "旺"] |                    口癖词列表                    |
 | miao_probability |    0.5     |                   添加口癖的概率                   |
 |  miao_position   |    end     | 添加口癖的位置，可选start(开头)、end(结尾)、random(句子中随机位置) |
 |    miao_count    |     1      |                  最多添加的词数量                   |
