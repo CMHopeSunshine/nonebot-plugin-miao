@@ -3,8 +3,19 @@ import random
 from typing import Dict, Any
 
 from nonebot.adapters import Bot
+from nonebot.plugin import PluginMetadata
 
-from .config import config
+from .config import config, Config
+
+__plugin_meta__ = PluginMetadata(
+    name="口癖",
+    description="让Bot的发言添加口癖",
+    usage="被动技能",
+    type="application",
+    homepage="https://github.com/CMHopeSunshine/nonebot-plugin-miao",
+    config=Config,
+    supported_adapters=None
+)
 
 
 @Bot.on_calling_api
