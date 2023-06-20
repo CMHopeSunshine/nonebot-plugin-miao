@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_miao"
-version = "v1.0.0"
+version = "1.1.0"
 description = "Nonebot2 plugin to make your bot talk weird."
 authors = ["CMHopeSunshine <277073121@qq.com>"]
 keywords = ["nonebot2"]
